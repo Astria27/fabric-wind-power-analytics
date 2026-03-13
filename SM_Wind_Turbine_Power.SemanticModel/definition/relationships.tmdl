@@ -1,0 +1,16 @@
+relationship c02bb716-9a8d-ef7f-e9fd-f8001dc0aacb
+	fromColumn: FactWindPower.date_id
+	toColumn: dim_date.date_id
+
+relationship 3ab1e047-f2e5-a903-06ce-cf342aaa10e4
+	fromColumn: FactWindPower.status_id
+	toColumn: dim_operational_status.status_id
+
+relationship f19f3b74-de4c-fba3-4323-327ce20cfa07
+	fromColumn: FactWindPower.time_id
+	toColumn: dim_time.time_id
+
+relationship 21bbea15-37fa-e6ea-85a0-aad51b7b29d5
+	fromColumn: FactWindPower.turbine_id
+	toColumn: dim_turbine.turbine_id
+
